@@ -1,46 +1,55 @@
-/* 전체 컨테이너를 flex 레이아웃으로 */
-#container {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  /* 전체 컨테이너를 flex 레이아웃으로 */
+  #container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0;
+  }
 
-/* 사이드바 */
-aside {
-  width: 250px;
-  background: #f4f4f4;
-  padding: 20px;
-  box-sizing: border-box;
-  border-right: 1px solid #ccc;
-  height: 100vh; /* 화면 전체 높이 */
-  position: sticky; /* 스크롤 내려도 고정 */
-  top: 0;
-}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaeaea;
+  }
 
-/* 메인 콘텐츠 */
-#main {
-  flex: 1;
-  padding: 20px;
-  background: #fff;
-}
+  /* 사이드바 */
+  aside {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc; 
+    border: none;  /* make sure no border at all */
+    height: 100vh;
+    position: sticky;  /* or sticky depending on your choice */
+    top: 0;
+    left: 0;
+  }
 
-/* 네임카드 스타일 */
-#namecard {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-#namecard img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: #ddd;
-  display: block;
-  margin: 10px auto;
-}
+  /* 메인 콘텐츠 */
+  #main {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+  }
 
-.subtitle {
-  border-bottom: 2px solid #333;
-  padding-bottom: 5px;
-  margin-top: 30px;
-}
+  /* 네임카드 스타일 */
+  #namecard {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #namecard img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ddd;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .subtitle {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
