@@ -6,3 +6,4 @@ Web Text : HTML5, CSS3, JS, etc.
 <b>2025.09.02~</b>
 
 Go To Main Page
+<a href = 'HomePage.html'>Go</a>
