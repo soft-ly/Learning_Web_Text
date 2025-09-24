@@ -39,13 +39,23 @@
     <h1>Form : 로그인</h1>
     <form>
         <fieldset>
-        <legend>Login Form</legend><br>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" required><br><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
-        <input type="submit" value="Login">
-        <input type="button" value="Sign Up" onclick="location.href='Sign_Up.html'">
+            <fieldset>
+            <legend>Login Form</legend><br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+            <input type="button" value="Sign Up" onclick="location.href='Sign_Up.html'">
+            </fieldset>
+            <img src="../src/image_login.png" usemap="#loginmap" alt="Login With" width="400" height="200">
+            <map name="profilemap">
+                <area shape="rect" coords="" href="" alt="Login with Google">
+                <area shape="rect" coords="" href="" alt="Login with Facebook">
+                <area shape="rect" coords="" href="" alt="Login with Twitter">
+                <area shape="rect" coords="" href="" alt="Login with GitHub">
+                
+            </map>
         </fieldset>
     </form>
     
