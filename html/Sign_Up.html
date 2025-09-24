@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/Sign_Up.css">
+    <link rel="stylesheet" href="../css/default.css">
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="width : 50px;">
+            <col style="width : 190px;">
+            <col style="width : 150px;">
+        </colgroup>
+            <tr>
+                <td><a href="../index.html">Home</a></td>
+                <td><a href="Hello_World.html">Monkey L. Heesung (W1)</a></td>
+                <td><a href="Hobbies.html">Hobbies (W2)</a></td>
+                <td><a href="form.html">Form (W3)</a></td>
+            </tr>
+    </table>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="/submit_signup" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="form.html">Log In</a></p>
+    </div>
+
+</body>
+</html>
