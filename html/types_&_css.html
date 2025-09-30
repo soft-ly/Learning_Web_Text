@@ -37,5 +37,71 @@
             <td>Inputs, CSS, and </td>
         </tr>
     </table>
-
+    
     <h1>Types & CSS</h1>
+    <input type="text" placeholder="Text Input">
+    <br>
+    <input type="password" placeholder="Password Input">
+    <br>
+    <input type="email" placeholder="Email Input">
+    <br>
+    <input type="number" placeholder="Number Input">
+    <br>
+    <input type="date" placeholder="Date Input">
+    <input type="checkbox" id="checkbox1">
+    <label for="checkbox1">Checkbox Input</label>
+    <br>
+    <input type="radio" id="radio1" name="radioGroup">
+    <label for="radio1">Radio Input 1</label>
+    <input type="radio" id="radio2" name="radioGroup">
+    <label for="radio2">Radio Input 2</label>
+    <br>
+    <input type="submit" value="Submit Button">
+    <input type="reset" value="Reset Button">
+    <br><br>
+    <textarea placeholder="Description"></textarea>
+    <br><br>
+    <select>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+    <br><br>
+    <button>Button Element</button>
+    <br><br>
+    <form action="https://nid.naver.com/nidlogin.login">
+        <input type="submit" value="Login with Naver"/>
+    </form>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        input, textarea, select, button {
+            margin: 5px 0;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"], input[type="reset"], button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+    <h2>Input Type Example <a href="input_ex.html">Page</a></h2>
+
+    <footer>
+        <p>&copy; 2025 My Learning Web</p>
+    </footer>
+</body>
+</html>
