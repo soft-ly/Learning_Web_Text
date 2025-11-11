@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/image_profile.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>Homepage of Learning Web</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0px;
             background-color: #f9f9f9;
         }
         h1 {
@@ -26,11 +28,28 @@
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Weekly Sessions</button>
+                <div class="dropdown-content">
+                    <a href="/html/W1_Intro.html">W1</a>
+                    <a href="/html/W2_Hobbies.html">W2</a>
+                    <a href="/html/W3_Christ.html">W3</a>
+                    <a href="/html/W4_Form.html">W4</a>
+                    <a href="/html/W5_CSS.html">W5</a>
+                    <a href="/html/W6_Fonts.html">W6</a>
+                    <a href="/html/W7_Colors_and_BG.html">W7</a>
+                    <a href="/html/W9_Positioning.html">W9</a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <h1>Welcome to My Learning Webpage</h1>
     <img src="src/image_home.png" alt="Homepage Image" width="600" height="400">
     <p>Hello! This is my website for learning web development (<a href="https://www.example.com">Lecture Info</a>). Here, I will share my journey and experiences in web development. Stay tuned for more updates!</p>
-    <p>Weekly Sessions : <a href="html/W1_Intro.html">Monkey L. Heesung (W1)</a></p>
-    <p>Introduction to Christianity : <a href="html/W3_Christ.html">Christianity</a></p>
+    <h2>Weekly Assignments</h2>
     <p>Online Profile [3주차 과제] : <a href="html/other/W3/assignment.html">Kim Yooshin</a></p>
     <p>Form : 로그인 [4주차 과제] : <a href="html/W4_Form.html">Login</a></p>
     <p>Form : 회원가입 [4주차 과제] : <a href="html/other/W4/Sign_Up.html">Sign Up</a></p>
@@ -38,6 +57,7 @@
     <p>Receipt : 상품주문서 [5주차 과제] : <a href="html/other/W5/input_ex.html">Receipt</a></p>
     <p>CSS : Intro_to_Christianity [5주차 과제]: <a href="html/W3_Christ.html">Intro to Christianity</a></p>
     <p>Fonts in Web Development [6주차 과제] : <a href="html/W6_Fonts.html">Fonts</a></p>
+    <p>9주차 과제 : <a href="html/other/W9/layout1.html">CSS Positions</a></p>
 </body>
     <footer>
         <p>&copy; 2025 My Learning Web</p>

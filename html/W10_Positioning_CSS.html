@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/image_profile.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <title>Positioning</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Weekly Sessions</button>
+                <div class="dropdown-content">
+                    <a href="W1_Intro.html">W1</a>
+                    <a href="W3_Christ.html">W3</a>
+                    <a href="W4_Form.html">W4</a>
+                    <a href="W5_CSS.html">W5</a>
+                    <a href="W6_Fonts.html">W6</a>
+                    <a href="W7_Colors_and_BG.html">W7</a>
+                    <a href="W9_Positioning.html">W9</a>
+                </div>
+            </div>
+        </nav>      
+    <table border="1">
+        <colgroup>
+            <col style="width : 100px;">
+            <col style="width : 200px;">
+            <col style="width : 100px;">
+            <col style="width : 200px;">
+        </colgroup>
+        <tr>
+            <th>배운 날짜</th>
+            <td>October 28, 2025</td>
+            <th>배운 내용</th>
+            <td>Positioning</td>
+        </tr>
+    </table>
+    </header>
+    <article>
+        <h1>Positioning in CSS</h1>
+        <section>
+            <h2>Static Positioning</h2>
+            <p>Static is the default positioning for HTML elements. Elements are positioned according to the normal flow of the document.</p>
+        </section>
+        <section>
+            <h2>Relative Positioning</h2>
+            <p>Relative positioning allows you to move an element relative to its normal position using the top, right, bottom, and left properties.</p>
+        </section>
+        <section>
+            <h2>Absolute Positioning</h2>
+            <p>Absolute positioning removes the element from the normal document flow and positions it relative to its nearest positioned ancestor.</p>
+        </section>
+        <section>
+            <h2>Fixed Positioning</h2>
+            <p>Fixed positioning positions an element relative to the viewport, meaning it stays in the same place even when the page is scrolled.</p>
+        </section>
+        <section>
+            <h2>Sticky Positioning</h2>
+            <p>Sticky positioning toggles between relative and fixed, depending on the scroll position. It is treated as relative until it crosses a specified threshold, then it becomes fixed.</p>
+        </section>
+
+    </article>
+    <aside>
+        <h2>Additional Resources</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN Web Docs: CSS Positioning</a></li>
+            <li><a href="https://www.w3schools.com/css/css_positioning.asp">W3Schools: CSS Positioning</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>© 2025 YKK. All rights reserved.</p>
+    </footer>
+</body>
+</html>

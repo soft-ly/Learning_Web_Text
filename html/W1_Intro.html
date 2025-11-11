@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../src/image_profile.svg" type="image/x-icon">   
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <title>슈렉 희성을 소개합니다</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
             background-color: #f0f0f0;
+            margin: 0;
         }
         h1 {
             color: #333;
@@ -26,22 +28,23 @@
     </style>
 </head>
 <body>
-    <table>
-        <colgroup>
-            <col style="width : 50px;">
-            <col style="width : 190px;">
-            <col style="width : 150px;">
-            <col style="width : 200px;">
-            <col style="width : 150px;">
-        </colgroup>
-            <tr>
-                <td><a href="../index.html">Home</a></td>
-                <td><a href="W1_Intro.html">Monkey L. Heesung (W1)</a></td>
-                <td><a href="W2_Hobbies.html">Hobbies (W2)</a></td>
-                <td><a href="other/W3/assignment.html">All about me</a></td>
-                <td><a href="W4_Form.html">Form (W4)</a></td>
-            </tr>
-    </table>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Weekly Sessions</button>
+                <div class="dropdown-content">
+                    <a href="W1_Intro.html">W1</a>
+                    <a href="W3_Christ.html">W3</a>
+                    <a href="W4_Form.html">W4</a>
+                    <a href="W5_CSS.html">W5</a>
+                    <a href="W6_Fonts.html">W6</a>
+                    <a href="W7_Colors_and_BG.html">W7</a>
+                    <a href="W9_Positioning.html">W9</a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <table border="1">
         <colgroup>
             <col style="width : 100px;">
